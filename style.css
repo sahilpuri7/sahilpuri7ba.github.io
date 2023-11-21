@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 1vmax;
+    /* border: 2px solid red; */
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+/* navigation */
+.nav2 {
+    width: 100%;
+    height: 8px;
+    position: fixed;
+    background-color: rgba(20, 19, 19, 0.781);
+    padding: 10px 20px;
+    filter: blur(1px);
+    z-index: 1;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5vmax;
+    height: 1px;
+    position: fixed;
+    padding: 10px 20px;
+    background-color: rgba(20, 19, 19, 0.781);
+    list-style: none;
+    padding: 15px;
+    z-index: 2;
+}
+
+nav ul li a {
+    position: relative;
+    text-decoration: none;
+    color: rgb(179, 177, 177);
+    margin-inline: 1.3vmax;
+    font-size: 1.3vmax;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* mainheading */
+.main-head {
+    display: flex;
+    padding-top: 6vmin;
+    padding-bottom: 2vmax;
+    gap: 2vmax;
+    flex-direction: column;
+    text-align: center;
+    user-select: none;
+}
+
+.main-head h1 {
+    font-size: 9.3vmax;
+}
+
+.main-head h3 {
+    font-size: 1.8vmax;
+}
+
+
+
+.para {
+    background-color: rgba(223, 223, 223);
+    padding: 2vmax 19vmax 6vmax 19vmax;
+    text-align: justify;
+    font-size: .9vmax;
+    color: rgb(121, 119, 119);
+    letter-spacing: .01vmax;
+    line-height: 1.5vmax;
+}
+
+/* bottom */
+footer .infobar {
+    width: auto;
+    height: auto;
+    margin: 0vmax 19vmax;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3vmax;
+}
+
+.infobar ul {
+    list-style: none;
+    padding: 25px;
+}
+
+.infobar ul h2 {
+    font-size: 1.5vmax;
+    color: rgb(71, 71, 71);
+    user-select: none;
+}
+
+hr {
+    width: 63.8%;
+    margin: 0vmax 19vmax 1vmax 19vmax;
+}
+
+.infobar li {
+    padding-bottom: 7px;
+    font-size: 1vmax;
+}
+
+.infobar ul a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.infobar ul li:hover {
+    background-color: #1d1d2432;
+    border-style: none;
+    border-radius: 2dvh;
+    padding: .5vmax 1.5vmax;
+    transition: 0.3s;
+}
+
+/* tc */
+.tc {
+    margin: 0vmax 19vmax;
+
+
+}
+
+.tc ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20vmax;
+    line-height: 3vmax;
+}
+
+.tc li a {
+    font-size: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+/* 
+.tc li a :hover{
+    
+} */
+
+
+
+
+
+/* socials */
+.social {
+    padding-bottom: 5vmax;
+    height: 0%;
+}
+
+.socialmedia {
+    padding-top: 1vmax;
+    padding-bottom: 1vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vmax;
+    list-style: none;
+}
+
+.details {
+    padding: 1vmax;
+    position: relative;
+    font-size: 8px;
+    padding-left: 19vmax;
+    top: 0.7vmax;
+}
+
+/* bottom */
+.bottom {
+    display: flex;
+    justify-content: center;
+    padding: 0vmax 10vmax 2vmax 10vmax;
+    font-size: 8px;
+    margin-top: 25px;
+}
+
+.bottom ul {
+    display: flex;
+    list-style: none;
+    gap: 1.2vmax;
+
+}
+
+.bottom ul li {
+    color: rgb(97, 95, 95);
+    cursor: pointer;
+
+}
+
+.bottom ul a {
+    padding-right: 3.9vmax;
+    color: rgb(97, 95, 95);
+}
+
+.bottom .ind {
+    padding-left: 2vmax;
+}
+
+.bottom .cpr {
+    padding-right: 2vmax;
+}
+
+.bottom ul li:hover {
+    text-decoration: underline;
+    color: rgb(27, 27, 27);
+
+}
+
+
+
+/* PHOTOS AND VIDEOS STYLING */
+
+.videos {
+    display: flex;
+    gap: 3vmax;
+    height: 29vmax;
+}
+
+#v1 {
+    margin: 20px;
+    padding: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px grey;
+}
+
+#v2 {
+    margin: 20px;
+    padding: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px grey;
+}
+
+/* slideshow */
+
+.slide {
+    background-color: rgba(128, 128, 128, 0.677);
+    position: relative;
+    width:fit-content;
+    height: 56vmax;
+}
+
+.slide img {
+    padding-top: 3vmax;
+    padding-left: 20px;
+    height: 45vmax;
+    width: 45vmax;
+    -webkit-user-drag: none;
+
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1vmax;
+    padding-top: 2vmax;
+    padding-bottom: 1vmax;
+
+}
+
+.dots a {
+    text-decoration: none;
+    font-size: 5vmax;
+    color: gray;
+    margin: 1vmax;
+}
+
+.dots a:hover {
+    color: rgb(17, 17, 17);
+}
+
+/* content */
+.column {
+    border-style: solid;
+    border-color: grey;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 4vmax;
+    margin-bottom: 1vmax;
+    padding-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.column img {
+    padding-top: 1.5vmax;
+    width: 15vmax;
+    height: 15vmax;
+    -webkit-user-drag: none;
+}
+
+.number ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 3vmax;
+    user-select: none;
+}
+
+.number li {
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.234);
+    border-radius: 10dvb;
+    background-color: #1d1d2423;
+    padding: 0.2vmax 1.2vmax;
+    background-color: rgba(197, 192, 192, 0.244);
+}
+
+.number li:hover {
+    background-color: rgba(197, 192, 192, 0.755);
+}
+
+.number :nth-child(3) {
+    background-color: rgba(197, 192, 192, 0.618);
+}
+
+.number :nth-child(1) {
+    border-style: none;
+    border-radius: 80dvb;
+    padding: 1vmax 1vmax;
+    background-color: transparent;
+}
+
+.number :nth-child(6) {
+    border-style: none;
+    border-radius: 80dvb;
+    padding: 1vmax 1vmax;
+    background-color: transparent;
+}
+
+/* MAKE AN ORDER */
+
+.service {
+    width: 93%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.service h2 {
+    font-size: 3vmax;
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: underline black;
+    user-select: none;
+}
+
+.service ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px 15px;
+}
+
+.service li {
+    list-style: none;
+    font-size: 2vmax;
+    text-align: center;
+    border-style: none;
+    border-radius: 25px;
+    background-color: rgba(120, 126, 124, 0.444);
+    user-select: none;
+}
+
+.service img {
+    padding: 10px;
+    border-radius: 25px;
+    width: 15vmax;
+    height: 15vmax;
+    -webkit-user-drag: none;
+   cursor: pointer;
+}
+
+.service li :hover{ 
+    transform: scale(1.15);
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.3s;
+}
