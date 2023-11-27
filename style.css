@@ -74,7 +74,6 @@ nav ul li a:hover {
 /* mainheading */
 .main-head {
     display: flex;
-    padding-top: 6vmin;
     padding-bottom: 2vmax;
     gap: 2vmax;
     flex-direction: column;
@@ -83,18 +82,27 @@ nav ul li a:hover {
 }
 
 .main-head h1 {
-    font-size: 9.3vmax;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 9vmax;
 }
 
 .main-head h3 {
+    text-align: center;
     font-size: 1.8vmax;
+}
+
+.main-head h2{
+    text-align: center;
+    font-size: 8vmax;
 }
 
 
 
 .para {
     background-color: rgba(223, 223, 223);
-    padding: 2vmax 19vmax 6vmax 19vmax;
+    padding: 2vmax 40vmin 6vmax 40vmin;
     text-align: justify;
     font-size: .9vmax;
     color: rgb(121, 119, 119);
@@ -124,8 +132,7 @@ footer .infobar {
 }
 
 hr {
-    width: 63.8%;
-    margin: 0vmax 19vmax 1vmax 19vmax;
+    margin: 0vmax 40vmin 1vmax 40vmin;
 }
 
 .infobar li {
@@ -249,8 +256,8 @@ hr {
 
 .videos {
     display: flex;
-    gap: 3vmax;
-    height: 29vmax;
+    gap: 11vmin;
+    height: 45vmin;
 }
 
 #v1 {
@@ -526,7 +533,7 @@ hr {
 
 .contact hr {
     position: inherit;
-    right: 19vmax;
+    right: 19vmin;
 }
 
 .contact-list {
